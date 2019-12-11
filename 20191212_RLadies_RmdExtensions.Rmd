@@ -1,0 +1,128 @@
+---
+title: "Meeting R Markdown extensions"
+author: " <br/><strong> Ania Alay </strong> <br/> "
+institute: "R-Ladies Barcelona"
+date: "2019/12/12"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: [default, rutgers-fonts]
+    nature:
+      titleSlideClass: ["left", "middle", "inverse"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# Meeting R Markdown extensions
+
+![](img/logos/compendium.png)
+
+### Ania Alay
+**R-Ladies Barcelona | 2019/12/12**
+
+---
+# What can you do with R Markdown? 
+<center>
+##  Almost everything 
+</center>
+### Presentations
+### Documents
+### Websites
+---
+# Presentations
+## Multiple options and frameworks exist
+.pull-left[
++ ###  ioslides
++ ### slidy
++ ### beamer
++ ### xaringan
++ ### reveal.js
+]
+.pull-right[
+ <br></br>
+ <br></br>
+ <img src="img/logos/xaringan.png" alt="" height="200"/> 
+ <br></br>
+ <br></br>
+]
+
+
+---
+# Documents
+
++ ### Journal articles
++ ### Books 
++ ### CVs 
+---
+# [rticles](https://bookdown.org/yihui/rmarkdown/journals.html)
+![](img/doc/rticles-springer.png)
+---
+# <img src="img/logos/bookdown.png" alt="" height="45"/>  [bookdown](https://bookdown.org/yihui/bookdown/) 
+![](img/doc/screenshot_bookdown.png)
+---
+# <img src="img/logos/bookdown.png" alt="" height="45"/>  [bookdown](https://bookdown.org/yihui/bookdown/) 
+![](img/doc/screenshot_bookdown2.png)
+Authoring with R Markdown allows you to cross-reference, manage citations, embed shiny apps or HTML widget, etc. 
+
+The publication can be exported to HTML, PDF, and e-books (e.g. EPUB)
+
+And [thesisdown](https://github.com/ismayc/thesisdown) to write your thesis!
+---
+# <img src="img/logos/vitae.png" alt="" height="45"/>  [vitae](https://pkg.mitchelloharawild.com/vitae/) 
+![](img/doc/sshot_vitae.png)
+---
+# <img src="img/logos/vitae.png" alt="" height="45"/>  [vitae](https://pkg.mitchelloharawild.com/vitae/) 
+![](img/doc/sshot_vitae3.png)
+---
+# <img src="img/logos/vitae.png" alt="" height="45"/>  [vitae](https://pkg.mitchelloharawild.com/vitae/) 
+![](img/doc/sshot_vitae4.png)
+
+
+---
+# Websites
+
++ ### Dashboards
++ ### Package documentation
++ ### Blogs
+
+---
+# [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) 
+![](img/web/screenshot_dashboard.png)
+---
+# [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) 
+![](img/web/screenshot_dashboard2.png)
+---
+# <img src="img/logos/pkgdown.png" alt="" height="45"/> [pkgdown](https://pkgdown.r-lib.org)
+![](img/web/screenshot_pkgdown.png)
+---
+# <img src="img/logos/blogdown.png" alt="" height="45"/> [blogdown](https://bookdown.org/yihui/blogdown/)
+For inspiration you can check out <https://awesome-blogdown.com/>, a list of [#rstats](https://twitter.com/hashtag/rstats?src=hashtag_click) blogs with blogdown `r emo::ji("tada")`
+![](img/web/sshot_blogdown.png)
+---
+# <img src="img/logos/blogdown.png" alt="" height="45"/> [blogdown](https://bookdown.org/yihui/blogdown/)
+![](img/web/sshot_blogdown2.png)
+---
+# <img src="img/logos/blogdown.png" alt="" height="45"/>  [blogdown](https://bookdown.org/yihui/blogdown/)
+![](img/web/sshot_blogdown3.png)
+---
+# <img src="img/logos/blogdown.png" alt="" height="45"/> [blogdown](https://bookdown.org/yihui/blogdown/)
+![](img/web/sshot_blogdown4.png)
+
+---
+# Bonus slide! <img src="img/logos/hex-workflowr.png" alt="" height="45"/> [workflowr](https://jdblischak.github.io/workflowr/)
+
+### Organize your project, build analyses websites, share results...
+
+<center>
+<font size="8" face="Yanone Kaffeesatz"><a href="https://www.youtube.com/watch?v=O1wv94sZfvE">Demo video</a></font>
+</center>
+
+---
+class: center, middle
+
+<font size="12"><b>Thanks!</b></font>
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
